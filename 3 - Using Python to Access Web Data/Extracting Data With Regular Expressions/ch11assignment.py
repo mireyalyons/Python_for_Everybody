@@ -12,7 +12,7 @@ for line in doc:
 
 print(sum)
 
-#Code for actual data
+#Code for assignment data
 doc2 = open('regex_sum_1419494.txt')
 
 sum2 = 0
