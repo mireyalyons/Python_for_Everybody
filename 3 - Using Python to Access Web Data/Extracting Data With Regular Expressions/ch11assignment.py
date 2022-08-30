@@ -1,19 +1,19 @@
 #Code for practice data
 import re
 
-doc = open('py4ech11sampledata.txt')
+doc = open('regex_sum_42.txt')
 
-sum = 0
+sum1 = 0
 
 for line in doc:
     numbers = re.findall('[0-9]+', line)
     for number in numbers:
-        sum = sum + int(number)
+        sum = sum1 + int(number)
 
 print(sum)
 
 #Code for actual data
-doc2 = open('ch11actualdata.txt')
+doc2 = open('regex_sum_1419494.txt')
 
 sum2 = 0
 
