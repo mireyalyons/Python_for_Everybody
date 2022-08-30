@@ -10,6 +10,9 @@ piece = text[startPos+1:]
 end = float(piece)
 print(end)
 
+#Output
+0.8475
+
 
 # Chapter 7
 
