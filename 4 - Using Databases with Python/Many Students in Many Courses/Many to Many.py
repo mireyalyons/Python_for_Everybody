@@ -1,3 +1,4 @@
+# This code creates the rosterdb in sqlite. After running, open rosterdb in sqlite
 import json
 import sqlite3
 
