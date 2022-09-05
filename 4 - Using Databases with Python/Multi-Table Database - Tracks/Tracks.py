@@ -1,3 +1,4 @@
+#this code creates the tracksdb in sqlite. After running, open tracksdb in sqlite
 import xml.etree.ElementTree as ET
 import sqlite3
 
